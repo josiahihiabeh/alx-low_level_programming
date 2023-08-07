@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* 
+/**
  * main - Entry point
- * Description: Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+ * Description: check and print number n check if it is positive or negative.
  * Return: always 0
  */
-int main(void) 
+int main(void)
 {
 	int n;
 
@@ -19,9 +18,9 @@ int main(void)
 	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	} else if (n < 0 )
+	} else if (n < 0)
 	{
-		printf("%d is negative", n); 
-	} 
+		printf("%d is negative", n);
+	}
 	return (0);
 }
